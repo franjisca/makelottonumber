@@ -282,11 +282,6 @@ const LottoGenerator = () => {
     ctx.fillStyle = "#666666";
     ctx.textAlign = "center";
     ctx.fillText(
-      "* 당첨금은 지급개시일로부터 1년내에 수령하여야 합니다.",
-      canvas.width / 2,
-      bottomY + 30
-    );
-    ctx.fillText(
       "* 본 용지는 실제 로또 용지가 아닙니다.",
       canvas.width / 2,
       bottomY + 50
@@ -564,8 +559,9 @@ const LottoGenerator = () => {
         {/* 푸터 */}
         <footer className="mt-12 text-center text-white/60">
           <p>
-            © 2026 로또 번호 만들기. 이 사이트는 재미를 위해 만들어졌습니다.
-            실제 당첨을 보장하지 않습니다.
+            © made by j!yeon 로또 번호 만들기. 이 사이트는 재미를 위해
+            만들어졌습니다. 실제 당첨을 보장하지 않습니다. 그러나 실제 당첨되면
+            좋긴 할 것 같습니다. 물론 제가요.
           </p>
         </footer>
       </div>
