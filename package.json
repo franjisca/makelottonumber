@@ -1,11 +1,13 @@
 {
   "name": "make-lotto-number",
   "version": "1.0.0",
+   "homepage": "https://franjisca.github.io/makelottonumber/",
   "description": "재미있는 로또 번호 생성기",
-  "homepage": "https://franjisca.github.io/makelottonumber/",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "preview": "vite preview",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "start": "react-scripts start",
