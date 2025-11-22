@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+🎰 행운의 로또 번호 생성기
+재미있고 예쁜 디자인의 로또 번호 생성기 웹사이트입니다.
+✨ 주요 기능
+1. 번호 생성
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1-45 중 6개 번호 랜덤 생성
+애니메이션 효과와 함께 생성
+번호별 색상 구분 (1-10: 노랑, 11-20: 파랑, 21-30: 빨강, 31-40: 회색, 41-45: 초록)
 
-## Available Scripts
+2. 번호 저장 (쿠키 활용)
 
-In the project directory, you can run:
+생성된 번호 세트 저장
+브라우저 쿠키에 30일간 보관
+재방문 시 자동으로 불러오기
+중복 번호 저장 방지
 
-### `npm start`
+3. 이미지로 저장
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+실제 로또 용지 스타일로 디자인
+저장된 번호들을 PNG 이미지로 다운로드
+고해상도(2x) 이미지 생성
+발행일 자동 표시
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+4. 초기화 기능
 
-### `npm test`
+저장된 모든 번호 세트 삭제
+삭제 전 확인 모달 표시
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+5. 광고 영역
 
-### `npm run build`
+수익화를 위한 광고 배치
+728x90 (상단 배너)
+300x250 (하단 사각형 광고 2개)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+🎨 디자인 특징
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+그라데이션 배경: 보라색, 분홍색, 인디고의 화려한 조합
+애니메이션:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+번호 생성 시 회전 애니메이션
+번호 표시 시 바운스 효과
+당첨 시 컨페티(색종이) 효과
+배경 블롭 애니메이션
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+글래스모피즘: 반투명한 카드 디자인
+반응형: 모바일부터 데스크톱까지 모든 화면 크기 지원
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+🛠️ 기술 스택
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+React 18 (TypeScript)
+Tailwind CSS 3
+Vite
+Canvas API (이미지 생성)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+📦 설치 및 실행
+bash# 의존성 설치
+npm install
 
-## Learn More
+# 개발 서버 실행
+npm run dev
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# 프로덕션 빌드
+npm run build
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# 빌드 미리보기
+npm run preview
