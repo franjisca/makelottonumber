@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 
 interface LottoBall {
   number: number;
@@ -351,7 +351,6 @@ const LottoGenerator = () => {
         <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-yellow-500 rounded-full mix-blend-multiply filter blur-3xl opacity-70 animate-blob animation-delay-2000"></div>
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-80 h-80 bg-purple-500 rounded-full mix-blend-multiply filter blur-3xl opacity-70 animate-blob animation-delay-4000"></div>
       </div>
-      <h1>왜 이래 썅!!!!!!!!!!!!!!!!!</h1>
 
       <div className="container mx-auto px-4 py-8 relative z-10">
         {/* 헤더 */}
