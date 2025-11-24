@@ -5,9 +5,9 @@ import App from './App.tsx'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <BrwoserRouter basename='/makelottonumber'>
+  <React.StrictMode>
     <App />
-  </BrwoserRouter>
+  </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
