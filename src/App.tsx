@@ -1,4 +1,4 @@
-// import "./index.css";
+import "./index.css";
 import LottoGenerator from "./LottoGenerator.tsx";
 
 function App() {
